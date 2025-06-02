@@ -44,7 +44,7 @@ const servicesData = [
 const service = () => {
   return (
     <>
-  <div className="pt-16 pb-16" id="Service">
+  <div className="pt-16 pb-16" id="service">
     <div className="w-[80%] mx-auto">
     {/* /* Section Heading */}
      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
