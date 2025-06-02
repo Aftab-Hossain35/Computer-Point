@@ -41,7 +41,7 @@ const servicesData = [
   }
 ];
 
-const service = () => {
+const Service = () => {
   return (
     <>
   <div className="pt-16 pb-16" id="service">
@@ -80,4 +80,4 @@ const service = () => {
   );
 };
 
-export default service;
+export default Service;

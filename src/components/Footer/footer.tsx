@@ -3,7 +3,7 @@ import { FaFacebookF, FaEnvelope, FaPhoneAlt,} from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="-mt-12 text-white text-center py-8 bg-blue-950">
+    <footer id="footer" className=" text-white text-center py-8 bg-blue-950">
       {/* Top Menu */}
       <div className="mb-4 space-x-4 text-sm font-semibold">
         <Link href="/" className="hover:text-blue-400">Home</Link>
