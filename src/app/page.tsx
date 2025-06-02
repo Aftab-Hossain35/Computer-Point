@@ -1,8 +1,8 @@
-import Navbar from "@/components/Navbar/nav";
-import Hero from "./hero/page";
-import Service from "./services/service";
-import Reviews from "./hero/reviews";
-import Footer from "../components/Footer/footer";
+import Navbar from "@/components/layout/nav";
+import Hero from "../components/home/hero";
+import Service from "../components/home/service";
+import Reviews from "../components/home/reviews";
+import Footer from "../components/layout/footer";
 
 export default function Homepage() {
   return (
