@@ -87,7 +87,7 @@ export default function Reviews() {
 
       {/* Google Map Embed */}
       <div className="w-full h-[450px]">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4460.477798177007!2d91.1790456455194!3d23.47319985188523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f2d327c81d9%3A0x7c33dc6cca762477!2sComputer%20Point!5e0!3m2!1sen!2sbd!4v1748447360256!5m2!1sen!2sbd" width="600" height="450" className="border-0 w-full h-full" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4460.477798177007!2d91.1790456455194!3d23.47319985188523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f2d327c81d9%3A0x7c33dc6cca762477!2sComputer%20Point!5e0!3m2!1sen!2sbd!4v1748447360256!5m2!1sen!2sbd" width="600" height="550" className="border-0 w-full h-full" loading="lazy"></iframe>
       </div>
     </section>
   );

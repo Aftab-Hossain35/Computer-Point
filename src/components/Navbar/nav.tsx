@@ -21,14 +21,14 @@ export default function Navbar() {
           <span className="text-2xl bg-purple-300 rounded-full p-2"><FaComputer/></span>
           <div>
             <p className="font-bold text-2xl">কম্পিউটার পয়েন্ট</p>
-            <p className="text-base text-xl">01731647688/01859732189</p>
+            <p className="text-xl">01731647688/01859732189</p>
           </div>
         </div>
         <div className="hidden md:flex gap-10 font-semibold text-xl">
-          <Link href="#">Home</Link >
-          <Link href="#Service">Services</Link >
-          <Link href="#reviews">Review</Link >
-          <Link href="#">Contact</Link >
+          <Link href="/">Home</Link>
+          <Link href="#service">Services</Link>
+          <Link href="#reviews">Review</Link>
+          <Link href="#footer">Contact</Link>
         </div>
         </div>
         <button onClick={() => setIsOpen(true)} className="md:hidden">
@@ -57,11 +57,11 @@ export default function Navbar() {
           </button>
         </div>
         <div className="flex flex-col p-4 gap-4 text-gray-300 font-medium">
-          <a href="#" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#" onClick={() => setIsOpen(false)}>About</a>
-          <a href="#" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="#" onClick={() => setIsOpen(false)}>Location</a>
-          <a href="#" onClick={() => setIsOpen(false)}>Contact</a>
+          <Link href="#" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link href="#" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="#" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link href="#" onClick={() => setIsOpen(false)}>Location</Link>
+          <Link href="#" onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       </div>
     </>

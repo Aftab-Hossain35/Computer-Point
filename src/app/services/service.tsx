@@ -49,7 +49,7 @@ const service = () => {
     {/* /* Section Heading */}
      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
-          <h1 className="text-lg sm:text-xl md:text-5xl font-extrabold text-blue-700 uppercase 0.5cm">
+          <h1 className="text-lg sm:text-xl md:text-5xl font-extrabold bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-500 bg-clip-text text-transparent uppercase 0.5cm">
             What we provide
            </h1>
           <h1 className="text-xl sm:text-2xl md:text-3xl mt-1 font-bold text-gray-800">
