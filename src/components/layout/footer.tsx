@@ -7,9 +7,9 @@ export default function Footer() {
       {/* Top Menu */}
       <div className="mb-4 space-x-4 text-sm font-semibold">
         <Link href="/" className="hover:text-blue-400">Home</Link>
-        <Link href="/services" className="hover:text-red-400">Services</Link>
-        <Link href="/contact" className="hover:text-red-400">Location</Link>
-        <Link href="/location" className="hover:text-red-400">Contact</Link>
+        <Link href="/services" className="hover:text-blue-400">Services</Link>
+        <Link href="/contact" className="hover:text-blue-400">Location</Link>
+        <Link href="/location" className="hover:text-blue-400">Contact</Link>
       </div>
 
       {/* Social Icons */}
