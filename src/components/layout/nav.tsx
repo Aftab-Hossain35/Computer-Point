@@ -21,7 +21,7 @@ export default function Navbar() {
           <span className="text-2xl bg-purple-300 rounded-full p-2"><FaComputer/></span>
           <div>
             <p className="font-bold text-2xl">কম্পিউটার পয়েন্ট</p>
-            <p className="text-xl">01731647688/01859732189</p>
+            <p className="text-xl">01731641688/01859732189</p>
           </div>
         </div>
         <div className="hidden md:flex gap-10 font-semibold text-xl">
