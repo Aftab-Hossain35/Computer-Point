@@ -49,7 +49,7 @@ const Service = () => {
     {/* /* Section Heading */}
      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
-          <h1 className="text-lg sm:text-xl md:text-5xl font-extrabold bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-500 bg-clip-text text-transparent uppercase 0.5cm">
+          <h1 className="text-3xl md:text-6xl font-extrabold bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-500 bg-clip-text text-transparent uppercase 0.5cm">
             What we provide
            </h1>
           <h1 className="text-xl sm:text-2xl md:text-3xl mt-1 font-bold text-gray-800">
@@ -65,7 +65,7 @@ const Service = () => {
      <h2 className="text-4xl font-bold mb-8 text-center text-gray-800 underline">আমাদের সেবাসমূহ</h2>
       <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center">
         {servicesData.map((service, ind) => (
-          <Link href={service.path} key={ind} className="p-6 w-70 flex flex-col items-center shadow hover:shadow-lg rounded-xl bg-gray-50 group transtion-all duration-500 hover:bg-gradient-to-r from-purple-600 to-blue-500 relative hover:scale-105">
+          <Link href={service.path} key={ind} className="p-6 w-70 flex flex-col items-center shadow hover:shadow-lg rounded-xl bg-gray-50 group transtion-all duration-500 sm:hover:bg-gradient-to-r from-purple-600 to-blue-500 relative sm:hover:scale-105 active:bg-blue-400">
             <img
               src={service.image}
               alt={service.title}
