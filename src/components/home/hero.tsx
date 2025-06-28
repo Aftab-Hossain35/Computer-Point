@@ -4,7 +4,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/IMG_9771.jpg"
+          src="/IMG_0074.jpg"
           alt="Hero Background"
           className="w-full h-full object-cover"
         />
