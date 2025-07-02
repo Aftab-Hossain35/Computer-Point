@@ -57,11 +57,10 @@ export default function Navbar() {
           </button>
         </div>
         <div className="flex flex-col p-4 gap-4 text-gray-300 font-medium">
-          <Link href="#" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="#" onClick={() => setIsOpen(false)}>About</Link>
-          <Link href="#" onClick={() => setIsOpen(false)}>Services</Link>
-          <Link href="#" onClick={() => setIsOpen(false)}>Location</Link>
-          <Link href="#" onClick={() => setIsOpen(false)}>Contact</Link>
+          <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link href="#service" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link href="#reviews" onClick={() => setIsOpen(false)}>Review</Link>
+          <Link href="#footer" onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       </div>
     </>
