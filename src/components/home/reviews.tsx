@@ -79,7 +79,7 @@ export default function Reviews() {
             <p className="mt-2">Works done</p>
           </div>
           <div>
-            <h2 className="text-4xl font-bold">600+</h2>
+            <h2 className="text-4xl font-bold">650+</h2>
             <p className="mt-2">Students</p>
           </div>
         </div>
